@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: aqua;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-weight: 600;
+    text-shadow: 0rem 0.2rem 0.4rem #01ffe8, 0rem 0.2rem 0.4rem #28fff5, 0rem 0.2rem 0.4rem #ff006a, 0rem 0.2rem 0.4rem #ff006a, 0rem 0.2rem 0.4rem #28fff5;
+    color: #a9ff00c7;
+}
+.h-p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #0000002e, transparent);
+    padding: 1rem;
+    box-shadow: 0rem 0rem 0.5rem 0rem gray;
+}
+
+.a-p {
+    font-size: 2rem;
+}
+
+.h-p ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.h-p ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+.h-p ul li a:hover {
+    border-bottom: 0.2rem solid rgb(95, 95, 95);
+    color: #00fff3;
+    text-shadow: 0rem 0.05rem 0.2rem black;
+}
+
+.h-p ul li {
+    list-style: none;
+}
+
+.nav-d input {
+    padding: 0.3rem;
+    border-radius: 1rem;
+    outline: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    box-shadow: 0rem 0rem 0.3rem 0rem;
+}
+
+.home {
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30rem;
+}
+
+.home h1 {
+    text-shadow: 0 0 0.5rem grey;
+    background: skyblue;
+    width: 94rem;
+    height: 8rem;
+}
+
+.home button {
+    padding: 0.5rem 2rem;
+    /* margin-left: -83rem; */
+    background: lightslategrey;
+    font-weight: 600;
+    font-size: 1.9rem;
+    /* border-radius: 0rem; */
+    width: 48rem;
+}
+
+.home p1 {
+    font-size: 1.9rem;
+    margin: 1rem 1rem;
+    color: blue;
+}
+
+.home p2 {
+    margin-left: 1.9rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(155 156 167);
+}
+
+.home p5,
+p7,
+p8 {
+    margin-left: 1.9rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.home .p-1 {
+    text-shadow: 0 0 0.5rem gray;
+    background: skyblue;
+    width: 37rem;
+    height: 8rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.home .p-2 {
+    text-shadow: 0 0 0.5rem gray;
+    background: skyblue;
+    width: 37rem;
+    height: 8rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: black;
+    height: 14rem;
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+.home .p-3 {
+    text-shadow: 0 0 0.5rem gray;
+    background: skyblue;
+    width: 37rem;
+    height: 8rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: black;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+.home .p-4 {
+    text-shadow: 0 0 0.5rem gray;
+    background: skyblue;
+    width: 37rem;
+    height: 8rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: black;
+    height: 34rem;
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+.home .p-4 p3 {
+    margin-left: 2rem;
+}
+
+.home .p-3 p3 {
+    margin-left: 2rem;
+}
+
+.home .p-1 p3,
+p4 {
+    margin-left: 2rem;
+}
+
+.home .p-2 p3,
+p6 {
+    margin-left: 2rem;
+}
+
+/*about section*/
+.about-section {
+    height: 100rem;
+    margin-top: 24rem;
+}
+
+.about-section h1 {
+    font-size: 2.6rem;
+    margin-left: 2rem;
+    background: lightslategrey;
+    height: 4rem;
+}
+
+.about-container h1 {
+    font-size: 2.6rem;
+    background: transparent;
+    color: white;
+}
+
+.about-section img {
+    width: 93rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.img1-con img:hover {
+    box-shadow: 0rem 0rem 1rem 0rem gray;
+}
+
+/*privacy-section*/
+.privacy-section h1 {
+    text-shadow: 0 0 0.5rem gray;
+    background: lightslategrey;
+    width: 94rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.privacy-container {
+    height: 18rem;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*contact-section*/
+.contact-section h1 {
+    text-shadow: 0 0 0.5rem gray;
+    width: 14rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    border-bottom: 0.3rem solid;
+    border-radius: 11rem;
+}
+
+.contact-container form input {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    width: 28rem;
+    border-radius: 1rem;
+    outline: 0;
+    gap: 1rem;
+    display: flex;
+    box-shadow: 0 0 0.3rem 0;
+    border: 0;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container form textarea {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    width: 28rem;
+    border-radius: 1rem;
+    outline: 0;
+    gap: 1rem;
+    display: flex;
+    box-shadow: 0 0 0.3rem 0;
+    border: 0;
+}
+
+.contact-container form button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+    box-shadow: 0rem 0rem 0.3rem 0rem;
+    border: 0;
+}
+
+.contact-container form button:hover {
+    background: #cfcfcf;
+    color: white;
+    box-shadow: inset 0rem 0rem 0.3rem 0rem;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39rem;
+}
+
+.home p15 {
+    font-size: 1.9rem;
+    color: blue;
+}
+
+/* nav customization */
+.nav-d button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0rem 0rem 0.4rem 0rem;
+}
+
+.nav-d button:hover {
+    box-shadow: inset 0rem 0rem 0.4rem 0rem;
+}
+
+
+.img-con img {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-items: er;
+    width: 100%;
+    height: 35rem;
+}
+
+.h-texts {
+    margin: 9rem;
+    display: flex;
+    gap: 21rem;
+}
+
+#about-con {
+    margin-top: -1rem;
+    border: 0.1rem solid;
+    margin-left: 0.5rem;
+    padding: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+}
+
+.a-con .first-p {
+    margin-bottom: 4rem;
+}
+
+.a-con p {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.a-con h1 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.a-con .second-p {
+    margin-bottom: 1.5rem;
+}
+
+.a1-con {
+    width: 19rem;
+    border: 0.1rem solid;
+    padding: 1rem 0rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.a1-con:hover {
+    box-shadow: 0rem 0rem 0.5rem 0rem gray;
+    border: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+.a1-con p {
+    color: #849797;
+}
+
+.a1-con p:hover {
+    color: rgb(0, 0, 0);
+}
+
+.img1-con img {
+    width: 98%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+#anathor-two p {
+    margin-right: 1rem;
+}
+
+#anathor-two img {
+    width: 98%;
+    height: 45rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.h-p img {
+    width: 8rem;
+    height: 2rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.img-con img {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-items: er;
+    width: 100%;
+    height: 35rem;
+    filter: opacity(0.5);
+}
+
+#about-con:hover {
+    box-shadow: 0rem 0rem 0.5rem 0rem gray;
+    border: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.h-texts img {
+    border-radius: 1rem;
+    opacity: 0.3;
+}
+
+#anathor-nine a:hover {
+    color: aqua;
+    text-decoration: none;
+    text-shadow: 0rem 0rem 0.1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* hamburger creation */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 2.8rem;
+    border-radius: 1rem;
+    background-color: black;
+    height: 0.3rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.hamburger .line:nth-child(2) {
+    width: 6.8rem;
+    border-radius: 1rem;
+    background-color: black;
+    height: 1.3rem;
+    margin-bottom: 1.3rem;
+    display: block;
+}
+.hamburger .line:nth-child(3) {
+    width: 3.8rem;
+    border-radius: 1rem;
+    background-color: black;
+    height: 1.3rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Style for social media icons */
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.img1-con img {
+    width: 33%;
+}
+
+@media (max-width:430px) and (min-width:230px) {
+    html {
+        font-size: 4px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: -2rem;
+    }
+    .logo{
+        font-size: 7rem;
+    }
+    .hamburger .line {
+        width: 8.8rem;
+        height: 1.2rem;
+        margin-bottom: 1.2rem;
+        transition: 0.3s;
+    }
+
+    .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(3.1rem) rotate(45deg);
+    }
+
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-1.6rem) rotate(-45deg);
+        width: 9rem;
+    }
+
+    .h-p {
+        height: 16rem;
+    }
+
+    .h-p ul li a {
+        font-size: 5rem;
+    }
+
+    .h-p img {
+        width: 30rem;
+        height: 10rem;
+    }
+
+    .a-p {
+        font-size: 6rem;
+    }
+
+    .all-texts h1 span {
+        font-size: 9rem;
+    }
+
+    .h-p .all-lists {
+        font-size: 2rem;
+        font-weight: 600;
+        width: 100%;
+        height: 60%;
+        padding: 6rem;
+        filter: blur(0px);
+        flex-direction: column;
+        position: absolute;
+        left: -115rem;
+        top: 16.3rem;
+        background: #b6e1e1cf;
+        transition: 0.3s;
+    }
+
+    .h-p .all-lists.active {
+        left: 0;
+    }
+
+    .nav-d input {
+        display: none;
+    }
+
+    .nav-d button {
+        display: none;
+    }
+
+    .h-texts {
+        flex-direction: column;
+        gap: 4rem;
+        margin-bottom: 44rem;
+        margin-top: 29rem;
+    }
+
+    .h-texts img {
+        margin-left: -8rem;
+        display: none;
+    }
+
+    #about-con {
+        margin-top: -8rem;
+    }
+
+    .a-con h1 {
+        font-size: 5.7rem;
+    }
+
+    .a-con p {
+        font-size: 4.3rem;
+    }
+
+    .h-p-con p {
+        font-size: 1.3rem;
+    }
+
+    .a1-con {
+        width: 100%;
+    }
+
+    .a1-con h1 {
+        font-size: 5rem;
+    }
+
+    .a1-con p {
+        font-size: 4rem;
+    }
+
+    #anathor-one {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    #anathor-four p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-three p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-five p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-two p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-six p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-seven p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-eight p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-nine p {
+        font-size: 4.3rem;
+    }
+
+    #anathor-four h1 {
+        font-size: 6rem;
+    }
+
+    #anathor-three h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-five h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-two h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-six h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-seven h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-eight h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-nine h1 {
+        font-size: 6.3rem;
+    }
+
+    #anathor-nine h3 {
+        font-size: 4rem;
+    }
+
+    .img1-con img {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        width: 95%;
+        height: 44rem;
+    }
+
+    .img-con img {
+        height: 102rem;
+    }
+
+    .multi-head-para-con a {
+        font-size: 5rem;
+    }
+
+    footer p {
+        font-size: 2.5rem;
+    }
+
+    .contact-section h1 {
+        width: 52rem;
+        height: 12rem;
+        font-size: 7rem;
+    }
+
+    .contact-container form input {
+        font-size: 4rem;
+        width: 67rem;
+    }
+
+    .contact-container form textarea {
+        font-size: 4rem;
+        width: 67rem;
+    }
+
+    .contact-container form button {
+        font-size: 4rem;
+        width: 67rem;
+    }
+
+    .contact-container {
+        height: 97rem;
+    }
+
+    .contact-container form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .toc-bac{
+        width: none;
+        height: 103rem;
+    }
+   
+}
+
+@media (max-width:390px) {
+    .h-texts {
+        margin-bottom: 30rem;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    .h-img img {
+        display: none;
+    }
+
+}

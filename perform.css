@@ -1,0 +1,98 @@
+#perform h5{
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem;
+    border-bottom: 0.5rem solid #d9d9d9;
+    width: 43rem;
+    border-radius: 2rem;
+    /* box-shadow: inset 0rem 0rem 0.2rem 0rem gray; */
+    text-shadow: 0rem 0.1rem 0.3rem gray;
+    color: gray;
+}
+.home-exercises{
+    display: flex;
+    justify-content: center;
+}
+.home-exercise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    height: 100%;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+    border-radius: 1rem;
+    padding: 3rem;
+    gap: 3rem;
+}
+.fhide{
+    margin-top: 0.2rem;
+    filter: hue-rotate(45deg);
+    margin-left: -0.2rem;
+}
+
+.home-exercise-img img{
+    height: 17rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+
+.home-exercise-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise1-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise1-img img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise3-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise3-img img{
+    height: 17rem;
+    width: 16rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.9rem 0rem gray;
+}
+.home-exercise2-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise2-img img{
+    width: 22rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise01-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise01-img img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise-content h4{
+    color: #33d9d9bd;
+    text-shadow: 0rem 0.05rem 0.1rem black;
+    font-size: 1.3rem;
+}
