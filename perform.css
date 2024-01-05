@@ -12,6 +12,7 @@
 .home-exercises{
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 .home-exercise{
     display: flex;
@@ -95,4 +96,33 @@
     color: #33d9d9bd;
     text-shadow: 0rem 0.05rem 0.1rem black;
     font-size: 1.3rem;
+}
+.home-exercise02-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise02-img img{
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+    width: 14rem;
+}
+.home-exercise03-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise03-img img{
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+    width: 23rem;
+}
+.about-img p{
+    width: 33rem;
+    text-align: center;
+    text-shadow: 0rem 0.2rem 0.2rem #6e6e6e;
+    font-weight: 600;
+    opacity: 0.5;
 }
